@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "cairo";
+    src: url(../font/Cairo-Regular.ttf);
+}
+body{
+    font-family: "cairo";
+}
+header video{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+header .heading{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.brand{
+    float: right;
+    padding-top: 40px;
+    display: block;
+    position: absolute;
+    top: 30px;
+}
+header .heading-text{
+    margin-top: 330px;
+    float: right;
+}  
+header .heading-text p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #5d5d5d;
+    margin-bottom: 50px;
+}
+header .heading-text h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+    line-height: 46px;
+    color: #555555;
+}
+header .head-img{
+    margin-top: 110px;
+}
+header .head-img img{
+    width: 100%;
+}
+header .heading .heading-btu .btn{
+    padding: 22px 55px;
+    background-color: #7936b2;
+    color: #ffffff;
+    margin-left: 15px;
+}
+#fet{
+    text-decoration: none;
+    color: #7936b2;
+    padding: 22px 55px;
+}
+header .product{
+    position: relative;
+}
+header .heading .lable{
+    width: 162px;
+    height: 20px;
+}
+header .heading .lable img{
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+header .heading .lable p{
+    position: absolute;
+    top: -25px;
+    right: 3px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+main{
+    background-color: #ffffff;
+}
+main h1{
+    text-align: center;
+    font-size: 36px;
+    color: #555;
+    line-height: 32px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    border-bottom: 2px solid #7936b2;
+}
+.fetures .cards .card{
+    width: 100%;
+    border: 0;
+    padding: 70px 0;
+    border-bottom: 3px solid #eeeeee;
+}
+.fetures .cards .card h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: #6a3093;
+    padding: 0 25px;
+    margin-bottom: 50px;
+    border-right: 2px solid #6a3093;
+}
+.fetures .cards .card p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+}
+.fetures .cards .left{
+    direction:ltr;
+}
+.fetures .cards .left h4{
+    direction: ltr;
+    border-right: 0;
+    border-left: 2px solid #6a3093;
+}
+.prices{
+    padding: 50px 0 60px;
+    background-color: #f7f7f7;
+}
+.prices h2{
+    text-align: center;
+}
+.prices .plan{
+    background-color: #fff;
+    border: 2px solid #ededed;
+    padding: 15px 0;
+    margin-top: 100px;
+    color: #acacac;
+}
+.prices .plan .title{
+    color: #7936b2;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.prices .plan h5{
+    font-size: 48px;
+    margin: 30px auto;
+    text-align: center;
+}
+.prices .plan h5 span{
+    font-size: 15px;
+    vertical-align: bottom;
+} 
+.prices .plan ul{
+    list-style: none;
+    padding: 0;
+}
+.prices .plan ul li{
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.prices .plan a{
+    align-items: center;
+    text-align: center;
+    color: #7936b2;
+    padding: 10px 40px;
+    border: 2px solid #7936b2;
+    transition: .5s;
+}
+.prices .plan .order-btn{
+    text-align: center;
+}
+.prices .plan .order-btn a:hover{
+    background-color: #7936b2;
+    color: #ffffff;
+}
+.prices .col-lg-3:nth-child(3) .plan{
+    padding-top: 60px;
+    margin-top: 55px;
+}
+.prices .col-lg-3:nth-child(3) .plan .order-btn a{
+    background-color: #7936b2;
+    color: #ffffff;
+}
+.common-asks{
+    background-color: #fff;
+    padding: 55px 0;
+}
+.common-asks  .title h2{
+    text-align: center;
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 55px;
+}
+.common-asks .accordion .accordion-item .accordion-button{
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+}
+.common-asks .accordion .accordion-item .accordion-body{
+    font-size: 15px;
+    color: #c9c9c9;
+    line-height: 24px;
+}
+.video{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.video video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video .overlay {
+    position: absolute;
+    background-color: rgba(130, 77, 178, 0.9);
+    min-height: 100%;
+    inset: 0;
+}
+.video .overlay button{
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    color: #fff;
+    font-size: 24px;
+    background-color: transparent;
+    border: 0;
+}
+.video .overlay button i{
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 auto 45px;
+    line-height: 90px;
+}
+.contact{
+    padding: 60px 0 40px;
+    background-color: #131313;
+}
+.contact h4{
+    font-size: 18px;
+    color: #758594;
+    line-height: 50px;
+}
+.contact form input , .contact form textarea{
+    background-color: #242424;
+    display: block;
+    color: #aeadad;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 35px;
+    border: 0;
+}
+.contact form button{
+    background-color: #a044ff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 3px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact .card{
+    background-color: #131313;
+}
+.contact .card img{
+    width: 91px;
+    height: 91px;
+    margin-top: 15px;
+    margin-right: 80px;
+    display: block;
+}
+.contact .blog h5{
+    text-decoration: none;
+    font-size: 18px;
+    color: #aeadad;
+    margin-bottom: 15px;
+}
+.contact .blog p{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #737373;
+}
+.contact .blog .d-flex{
+    margin-bottom: 25px;
+}
+footer{
+    background-color:#242424 ;
+    padding: 25px 0;
+}
+footer .list-inline a{
+    background-color: #758594;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #242424;
+    display: block;
+    transition: .5s;
+}
+footer .list-inline a:hover{
+    background-color: #0d6efd;
+}
+footer .copy-right p{
+    color: #737373;
+    float: left;
+}
